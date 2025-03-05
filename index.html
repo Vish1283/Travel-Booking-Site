@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldWide Travel - Book Your Dream Trip</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="plane-loader">
+            <i class="fas fa-plane"></i>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-globe-americas"></i>
+                <span>WorldWide Travel</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#flights">Flights</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#deals">Deals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Your Journey Begins Here</h1>
+            <div class="animated-bg">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <p class="hero-subtitle">Discover amazing destinations worldwide</p>
+            <div class="destination-tags">
+                <span class="tag">Paris</span>
+                <span class="tag">Bali</span>
+                <span class="tag">New York</span>
+                <span class="tag">Tokyo</span>
+                <span class="tag">Dubai</span>
+            </div>
+            <div class="search-container">
+                <div class="search-tabs">
+                    <button class="tab active">Flights</button>
+                    <button class="tab">Hotels</button>
+                    <button class="tab">Experiences</button>
+                </div>
+                <div class="search-form">
+                    <div class="form-group">
+                        <label><i class="fas fa-plane-departure"></i> From</label>
+                        <input type="text" placeholder="City or Airport">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-plane-arrival"></i> To</label>
+                        <input type="text" placeholder="City or Airport">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="far fa-calendar"></i> Departure</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="far fa-calendar"></i> Return</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> Travelers</label>
+                        <select>
+                            <option>1 Adult</option>
+                            <option>2 Adults</option>
+                            <option>3 Adults</option>
+                            <option>4+ Adults</option>
+                        </select>
+                    </div>
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="deals" class="deals">
+            <h2>Featured Deals</h2>
+            <div class="deal-grid">
+                <div class="deal-card">
+                    <img src="https://source.unsplash.com/400x300/?paris" alt="Paris">
+                    <div class="deal-content">
+                        <h3>Paris, France</h3>
+                        <p>5 nights + Flight</p>
+                        <p class="price">From $899</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="https://source.unsplash.com/400x300/?bali" alt="Bali">
+                    <div class="deal-content">
+                        <h3>Bali, Indonesia</h3>
+                        <p>7 nights + Flight</p>
+                        <p class="price">From $1099</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="https://source.unsplash.com/400x300/?newyork" alt="New York">
+                    <div class="deal-content">
+                        <h3>New York, USA</h3>
+                        <p>4 nights + Flight</p>
+                        <p class="price">From $799</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="experiences">
+            <h2>Popular Experiences</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure Tours</h3>
+                    <p>Explore the wilderness</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food Tours</h3>
+                    <p>Taste local cuisines</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Cultural Tours</h3>
+                    <p>Discover heritage sites</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-water"></i>
+                    <h3>Beach Activities</h3>
+                    <p>Enjoy water sports</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <h2>Get Travel Deals & Updates</h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted partner for worldwide travel experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@worldwidetravel.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 WorldWide Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Animate elements when they come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        // Observe all cards
+        document.querySelectorAll('.deal-card, .experience-card').forEach((el) => observer.observe(el));
+
+        // Add click animation to search button
+        document.querySelector('.search-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            this.classList.add('clicked');
+            setTimeout(() => this.classList.remove('clicked'), 500);
+        });
+
+        // Animate destination tags on click
+        document.querySelectorAll('.tag').forEach(tag => {
+            tag.addEventListener('click', function() {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => this.style.transform = '', 200);
+            });
+        });
+    });
+    </script>
+</body>
+</html> 
